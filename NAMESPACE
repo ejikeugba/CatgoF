@@ -1,0 +1,41 @@
+exportPattern(".")
+
+importFrom("graphics",
+           "axis",
+           "barplot",
+           "par")
+importFrom("methods",
+           "is")
+importFrom("ordinal",
+           "clm2")
+importFrom("nnet",
+           "multinom")
+importFrom("MASS",
+           "polr")
+importFrom("stats",
+           "coef",
+           "complete.cases",
+           "logLik",
+           "var",
+           "Gamma",
+           "binomial",
+           "family",
+           "gaussian",
+           "glm",
+           "inverse.gaussian",
+           "poisson",
+           "quasi")
+importFrom("utils",
+           "head")
+importFrom("VGAM",
+           "familyname",
+           "vglm",
+           "acat",
+           "cumulative",
+           "propodds",
+           "cratio",
+           "sratio",
+           "multinomial",
+           "brat",
+           "bratt",
+           "ordpoisson")

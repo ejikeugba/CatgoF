@@ -1,0 +1,26 @@
+Package: CatgoF
+Type: Package
+Title: Measures of Fit for Categorical Response Model
+Version: 0.1.0
+Date: 2017-10-16
+Author: Ejike R. Ugba
+Maintainer: Ejike Ugba <ejike.ugba@outlook.com>
+Description: This package provides a quick assessment of 
+    goodness-of-fit for categorical response models. The 
+    goFit function in particular accepts a single, multipl or 
+    list of objects of class glm, vglm, clm2, polr & multinom. 
+    It searches out the best model in a list of candidate 
+    models based on the Akaike and the Schwarz Information 
+    Criteria. It returns among others the evidence ratios, the 
+    Akaike weights and the Schwarz weights of fitted models.  
+    Moreover, several pseudo R-squares applicable to categorical 
+    outcome models are also returned for inputed model objects. 
+    The CatgoF package also includes a plotgoF function that
+    graphs the the returned object of class gof.
+Depends: R (>= 3.4.1)  
+Imports: MASS, VGAM, ordinal, nnet, graphics, methods, stats, utils
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: knitr
